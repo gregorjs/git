@@ -116,6 +116,9 @@ Ceph bietet mehrere
 #Ceph und Hyperconverged?
 
 
+![openstack-hc](images/hci-in-depth.png)
+
+
 Unterstützung für 
 #Ceph 
 in 
