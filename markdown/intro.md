@@ -7,7 +7,7 @@ an der
 ![Ceph and Uni](images/ceph_and_uni.png)
 
 
-Was ist Ceph?
+## Was ist Ceph?
 
 
 Ceph ist ein
@@ -24,7 +24,7 @@ entwickelt und 2014 von
 gekauft
 
 
-Warum Ceph
+## Warum Ceph
 
 * distributed <!-- .element class="fragment" -->
 
@@ -33,7 +33,7 @@ Warum Ceph
 * free as in speech <!-- .element class="fragment" -->
 
 
-Warum nicht Ceph?
+## Warum nicht Ceph?
 
 * Performance <!-- .element class="fragment" -->
 
@@ -65,9 +65,12 @@ System
 ![developers](images/developers.png)
 
 
-Ceph besteht aus
+## Ceph besteht aus
+
 * OSDs
+
 * Monitors
+
 * MDS
 
 ![services](images/services.png)
@@ -79,13 +82,13 @@ Ceph ist eigentlich ein
 ![objectstore](images/objectstore.png)
 
 
-Was ist Ceph nicht?
+## Was ist Ceph nicht?
 
 
 # Ceph ≠ RAID
 
 
-Ceph beherrscht aber 
+## Ceph beherrscht aber 
 * Striping
 * Replicas
 * Erasure Coding
