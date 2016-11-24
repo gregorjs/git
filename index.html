@@ -41,7 +41,13 @@
                  data-separator="^\n\n\n"
                  data-separator-vertical="^\n\n"
                  data-separator-notes="^Note:"
-                 data-background-image="images/uni_logo_4c.svg" data-background-size="300px" data-background-position="right top">
+                 data-background-image="images/uni_logo_4c.svg" data-background-size="400px" data-background-position="right top">
+        </section>
+        <section id="uibk_ceph"
+                 data-markdown="markdown/uibk_ceph.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
         </section>
         <section id="demo"
                  data-markdown="markdown/demo.md"
@@ -99,10 +105,13 @@ Reveal.initialize({
     center: true,
 
     // Parallax background image
-    parallaxBackgroundImage: 'images/background.jpg',
+    //parallaxBackgroundImage: 'images/uni_logo_4c.svg',
 
     // Parallax background size
-    parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px"
+    //parallaxBackgroundSize: '6000px 1000px', // CSS syntax, e.g. "2100px 900px"
+
+    //parallaxBackgroundHorizontal: '10px',
+    //parallaxBackgroundVertical: '10px',
 
     theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
     transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
