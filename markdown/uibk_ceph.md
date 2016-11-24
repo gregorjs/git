@@ -111,7 +111,7 @@ ceph-disk activate ${disk}
 * RBD ordered writeback cache, low latency <!-- .element class="fragment" -->
 
 
-![ceph_on_flash](images/ceph_on_flash.png)
+<!-- .slide: data-background-image="images/ceph_on_flash.png" data-background-size="contain" -->
 
 
 ### Ordered writeback cache
