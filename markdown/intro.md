@@ -4,9 +4,6 @@ an der
 [`gregor.schwab@uibk.ac.at`](mailto:gregor.schwab@uibk.ac.at)
 
 
-![Ceph and Uni](images/ceph_and_uni.png)
-
-
 ## Was ist Ceph?
 
 
@@ -104,7 +101,7 @@ Ceph bietet mehrere
 * CephFS
 
 
-![stack](images/stack.png)
+<!-- .slide: data-background-image="images/stack.png" data-background-size="contain" -->
 
 
 ## RBD
@@ -116,7 +113,7 @@ Ceph bietet mehrere
 #Ceph und Hyperconverged?
 
 
-![openstack-hc](images/hci-in-depth.png)
+<!-- .slide: data-background-image="images/hci-in-depth.png" data-background-size="contain" -->
 
 
 Unterstützung für 
@@ -125,7 +122,7 @@ in
 #Openstack?
 
 
-![openstack-ceph-galaxy](images/openstack-ceph-galaxy.png)
+<!-- .slide: data-background-image="images/openstack-ceph-galaxy.png" data-background-size="contain" -->
 
 
 Unterstützung für 
