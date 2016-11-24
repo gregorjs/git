@@ -1,5 +1,7 @@
 # Ceph @ UIBK
 
+<img src="images/ceph_logo.png" style="width:20%"/>
+
 
 ##Einige Fakten:
 

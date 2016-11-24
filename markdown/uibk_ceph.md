@@ -12,10 +12,10 @@ in
 * RHEV
 
 
-![rhev1](images/cinder.png)
+<!-- .slide: data-background-image="images/cinder.png" data-background-size="contain" -->
 
 
-![rhev2](images/pools.png)
+<!-- .slide: data-background-image="images/pools.png" data-background-size="contain" -->
 
 
 ## RBD Backups
@@ -77,7 +77,6 @@ sehr gut
 Auskonfigurieren einer kaputten OSD
 
 <pre><code data-trim data-noescape>
-out.sh
 #!/bin/bash
 ceph osd out $1
 sudo service ceph-osd@$1 stop
@@ -101,7 +100,7 @@ ceph-disk activate ${disk}
 </code></pre>
 
 
-## Ausblick:
+## Ausblick Ceph:
 
 * Hybrid Cluster (SSD, HDD) <!-- .element class="fragment" -->
 * Ceph on Flash <!-- .element class="fragment" -->
@@ -118,10 +117,16 @@ ceph-disk activate ${disk}
 ### Ordered writeback cache
 
 
-![wb0](images/wb0.png)
+<!-- .slide: data-background-image="images/wb0.png" data-background-size="contain" -->
 
 
-![wb1](images/wb1.png)
+<!-- .slide: data-background-image="images/wb1.png" data-background-size="contain" -->
 
 
-![wb2](images/wb2.png)
+<!-- .slide: data-background-image="images/wb2.png" data-background-size="contain" -->
+
+
+## Ausblick Openstack:
+
+* Newton Release Upgrade (in 2 Wochen)
+* Docker Integration
