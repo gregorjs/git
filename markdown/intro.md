@@ -42,12 +42,12 @@ Git presentation @ Voestalpine | 29.11.2017
 ## DVCS vs. VCS
 
 * Snapshots (keine Deltas)
-* Lightweight Forks
+* Lightweight Forks, wie DNA
 * Keine Network Latency
 * Sauberes Merge Tracking
 * Datenintegrität ([SHA1](https://en.wikipedia.org/wiki/SHA-1) Summen)
 * Meritocracy anstelle Comitter Status
-* Lokale Branches (fördert privates Arbeiten und neue Ideen)
+* Lokale Branches (ermöglicht privates Arbeiten und neue Ideen)
 
 
 ## Installation von GIT

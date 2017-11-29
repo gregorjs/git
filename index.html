@@ -8,8 +8,8 @@
 
     <!-- reveal.js CSS theme and local overrides -->
     <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
-    <link rel="stylesheet" href="reveal.js/css/theme/moon.css" id="theme"/>
-    <link rel="stylesheet" href="css/reveal-override.css"/>
+    <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme"/>
+    <link rel="stylesheet" href="css/pre.css"/>
 
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css" />
@@ -30,7 +30,7 @@
           <p><a href="https://gregorjs.github.io/git" target="_blank"
                 id="talk">https://gregorjs.github.io/git</a></p>
         </section>
-        <section id="intro" data-transition="zoom"
+        <section id="intro" data-transition="zoom" data-background="#4d7e65"
                  data-markdown="markdown/intro.md"
                  data-separator="^\n\n\n"
                  data-separator-vertical="^\n\n"
@@ -42,6 +42,13 @@
                  data-separator-vertical="^\n\n"
                  data-separator-notes="^Note:">
         </section>
+        <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
+					</p>
+					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+				</section>
         <section id="openstack"
                  data-markdown="markdown/openstack.md"
                  data-separator="^\n\n\n"

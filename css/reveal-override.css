@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
-
 /* Disable background 4px border around images */
 .reveal section img {
   border: none;
@@ -23,23 +21,6 @@
   width: 100%;
   margin: 2%;
   background-color: white;
-}
-
-body,
-.reveal {
-  font-family: "Open Sans Condensed", "League Gothic", sans-serif;
-  font-weight: normal;
-}
-
-.reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal h4,
-.reveal h5,
-.reveal h6,
-.reveal a {
-  font-family: inherit;
-  font-weight: bold;
 }
 
 /* Override the default uppercase text-transform
