@@ -13,6 +13,6 @@ shellinaboxd \
 	--no-beep \
 	--disable-ssl \
 	--css=$dir/../css/shellinabox.css \
-	--service /:$USER:$USER:HOME:"screen -xR"
+	--service /:$USER:$USER:HOME:"screen -xRR"
 
 echo "shellinaboxd started in background. Shutdown with \"kill -TERM `cat $pidfile`\"." >&2

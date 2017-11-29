@@ -1,3 +1,3 @@
-## Ceph @ UIBK Presentation
+## Git Presentation at Voestalpine
 
-A presentation about ceph @ university Innsbruck.
+A presentation about GIT @ Voestalpine.
