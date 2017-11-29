@@ -28,14 +28,8 @@ git config --list
 <pre><code class="bash">git init
 </code></pre>
 
-<iframe src="http://13.228.103.199:4200" style="
-    background-color: white;
-    height: 200px;
-    width: 100%
-"></iframe>
 
-
-## Everyday git
+## Git status
 
 <pre><code class="bash">#Status abfragen
 git status
@@ -53,12 +47,6 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 </code></pre>
-
-<iframe src="http://13.228.103.199:4200" style="
-    background-color: white;
-    height: 200px;
-    width: 100%
-"></iframe>
 
 
 ## git add (Staging)
@@ -80,12 +68,6 @@ Changes to be committed:
 	new file:   hello.js
 </code></pre>
 
-<iframe src="http://13.228.103.199:4200" style="
-    background-color: white;
-    height: 200px;
-    width: 100%
-"></iframe>
-
 
 ## Die Staging Area
 
@@ -103,23 +85,11 @@ Changes to be committed:
 git commit -m "Inital Commit"
 </code></pre>
 
-<iframe src="http://13.228.103.199:4200" style="
-    background-color: white;
-    height: 200px;
-    width: 100%
-"></iframe>
-
 
 ## den letzten Commit rückgängig machen
 
 <pre><code class="bash">git commit --amend
 </code></pre>
-
-<iframe src="http://13.228.103.199:4200" style="
-    background-color: white;
-    height: 200px;
-    width: 100%
-"></iframe>
 
 
 ## die Working Area und Staging Area zurücksetzen
@@ -127,23 +97,11 @@ git commit -m "Inital Commit"
 <pre><code class="bash">git reset --hard
 </code></pre>
 
-<iframe src="http://13.228.103.199:4200" style="
-    background-color: white;
-    height: 200px;
-    width: 100%
-"></iframe>
-
 
 ## nur die Staging Area zurücksetzen
 
 <pre><code class="bash">git reset --soft
 </code></pre>
-
-<iframe src="http://13.228.103.199:4200" style="
-    background-color: white;
-    height: 200px;
-    width: 100%
-"></iframe>
 
 
 Vorteil:
