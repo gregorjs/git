@@ -255,6 +255,16 @@ Switched to branch 'feature'
 </code></pre>
 
 
+## Git Internals
+
+![commit and tree](images/commit-and-tree-1.png)
+
+
+## Git Internals
+
+![commit and parents](images/commits-and-parents-1.png)
+
+
 ## Der master branch
 
 ![master branch](images/branch-and-history.png)
@@ -298,6 +308,19 @@ git merge branch #den branch in den momentanen checkout mergen
 </code></pre>
 
 
-## Basic Merging
+## Merge Types
 
-![basic merging](images/basic-merging-2.png)
+![Merge Types](images/merge-types.png)
+
+
+## Rebase vs. Merge
+
+![rebase vs merge](images/animation-rebasing-update-branch.svg)
+
+
+## Git Workflows
+
+![Git Workflows](images/lr-branches-2-1.png)
+
+
+<!-- .slide: data-background-image="images/merge-types.png" data-background-size="contain" -->

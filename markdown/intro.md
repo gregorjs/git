@@ -9,6 +9,23 @@ Gregor Schwab | [`gregor.schwab@voestalpine.com`](mailto:gregor.schwab@voestalpi
 Git presentation @ Voestalpine | 29.11.2017
 
 
+## Zu meiner Person
+
+* Studium an der Universität Innsbruck
+* 1994+ versch. Softwareentwicklung mit C++, Java (JBoss) und Perl (Philips)
+* 1994+ Erstkontakt mit Unix Workstations und RCS
+* 2004+ techn. Infrastruktur Standortleitung Sysadmins
+* 2011+ Leitung der Webentwicklung (EA Startup Turbulenz)
+
+
+* 2013+ Teamleitung Virtualisierungsinfrastruktur am ZID (Universität Innsbruck)
+  für 4000 Mitarbeiter und ca. 40.000 Studierende
+  Planung, Betreuung und Weiterentwicklung des Gitlab Community Edition Servers der Universität Innsbruck (800 Benutzer über 1000 Projekte)
+  Entwicklung der Puppet Deployment Infrastruktur mit Tests/CI/CD
+* 2015+ SCRUM Master Ausbildung
+* 2015+ Projektmanagement div. Projekte
+
+
 ## Versionskontrollsysteme
 
 * einfache Versionskontrolle <!-- .element class="fragment" -->
@@ -59,119 +76,35 @@ https://git-scm.com/download/win
 
 * Unter Linux (z.B. über Packagemanager):
 <pre><code class="bash"># Installation von git auf Ubuntu
-  $ apt-get install git-all
+  $ apt-get install git
 </code></pre>
 
 * Selbst kompilieren (nicht empfohlen)
 
 
-## Warum Ceph
+## Installation unter Windows im Detail
 
-* distributed <!-- .element class="fragment" -->
-
-* scalable <!-- .element class="fragment" -->
-
-* free as in speech <!-- .element class="fragment" -->
+![setup1](images/Setup1.png)
 
 
-## Warum nicht Ceph?
+## Installation unter Windows im Detail
 
-* Performance <!-- .element class="fragment" -->
-
-* Stabilität <!-- .element class="fragment" -->
-
-* Benutzerfreundlichkeit <!-- .element class="fragment" -->
+![setup2](images/Setup2.png)
 
 
-Kann Ceph produktiv eingesetzt werden?
+## Installation unter Windows im Detail
 
-Dies hängt von der Betrachtung ab
-### RADOS object store, RBD, und RadosGW
-gelten als ausreichend stabil
-grosse Organisationen verwenden es
-### CephFS is stabil seit Jewel
-(ohne Snapshots)
-
-tendentiell stabiler als so manch kommerzielles
-System
+![setup3](images/Setup3.png)
 
 
-## Ceph Release Cycle
+## Installation unter Windows im Detail
 
-![release](images/release.png)
-
-
-## Ceph Developer Community
-
-![developers](images/developers.png)
+![setup4](images/Setup4.png)
 
 
-## Ceph besteht aus
+## Installation der SSH Keys (optional)
 
-* OSDs
+<pre><code class="bash">ssh-keygen -t rsa -C "your_email@example.com"
+</code></pre>
 
-* Monitors
-
-* MDS
-
-![services](images/services.png)
-
-
-Ceph ist eigentlich ein
-# Object Store
-
-![objectstore](images/objectstore.png)
-
-
-## Was ist Ceph nicht?
-
-
-# Ceph ≠ RAID
-
-
-## Ceph beherrscht aber
-* Striping
-* Replicas
-* Erasure Coding
-* Cache Pools
-
-
-Ceph bietet mehrere
-## Storage Frontends
-
-
-* RBD
-* RADOS Gateway
-* CephFS
-
-
-<!-- .slide: data-background-image="images/stack.png" data-background-size="contain" -->
-
-
-## RBD
-über
-## qemu-librbd
-(caching)
-
-
-#Ceph und Hyperconverged?
-
-
-<!-- .slide: data-background-image="images/hci-in-depth.png" data-background-size="contain" -->
-
-
-Unterstützung für
-#Ceph
-in
-#Openstack?
-
-
-<!-- .slide: data-background-image="images/openstack-ceph-galaxy.png" data-background-size="contain" -->
-
-
-Unterstützung für
-#Ceph
-in
-#RHEV?
-
-* seit RHEV 3.6
+![setup5](images/Setup5.png)
