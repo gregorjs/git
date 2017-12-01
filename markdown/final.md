@@ -2,7 +2,6 @@
 
 * [SCM Manager](https://www.scm-manager.org/)
 * [Rhodecode](https://rhodecode.com/)
-
 * [Github](https://github.com)
 * [Bitbucket](https://bitbucket.org/)
 * [Gitlab](https://gitlab.com)
@@ -22,7 +21,6 @@
 
 * [Hudson](http://hudson-ci.org/)
 * [Jenkins](https://jenkins.io/)
-
 * [Travis CI](https://travis-ci.org/)
 * [Gitlab CI](https://github.com/gitlabhq/gitlab-ci)
 
@@ -34,6 +32,7 @@
 * [Visual Git](http://marklodato.github.io/visual-git-guide/index-en.html)
 
 
-<!-- .slide: data-background-image="images/by-sa.svg" data-background-size="contain" -->
+#Thank you!
 
-Thank you!
+
+<!-- .slide: data-background-image="images/by-sa.svg" data-background-size="contain" -->

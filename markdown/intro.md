@@ -6,7 +6,7 @@ Fast version control
 
 Gregor Schwab | [`gregor.schwab@voestalpine.com`](mailto:gregor.schwab@voestalpine.com)
 
-Git presentation @ Voestalpine | 29.11.2017
+Git presentation @ Voestalpine | 30.11.2017
 
 
 ## Zu meiner Person
