@@ -23,7 +23,7 @@ Git presentation @ Voestalpine | 30.11.2017
   Planung, Betreuung und Weiterentwicklung des Gitlab Community Edition Servers der Universität Innsbruck (800 Benutzer über 1000 Projekte)
   Entwicklung der Puppet Deployment Infrastruktur mit Tests/CI/CD
 * 2015+ SCRUM Master Ausbildung
-* 2015+ Projektmanagement div. Projekte
+* 2015+ Projektmanagement div. DevOPS Projekte
 
 
 ## Versionskontrollsysteme
