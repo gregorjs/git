@@ -23,11 +23,39 @@
 	</head>
 	<body>
 		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+      <div class="slides">
+        <section id="intro" data-transition="zoom"
+                 data-markdown="markdown/intro.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note: some notes">
+        </section>
+        <section id="git_basics" data-transition="convex"
+                 data-markdown="markdown/git_basics.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+        <section id="demo"
+                 data-markdown="markdown/demo.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+        <section data-transition="slide" 
+                 data-markdown="markdown/git_remote.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+        <section data-transition="slide" data-background="#00577A" data-background-transition="zoom"
+                 data-markdown="markdown/final.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+      </div>
+    </div>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
