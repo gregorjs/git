@@ -30,6 +30,7 @@
 * [Git Immersion](http://gitimmersion.com/)
 * [Git Book](https://git-scm.com/book/)
 * [Visual Git](http://marklodato.github.io/visual-git-guide/index-en.html)
+* [PDF der Präsentation](https://gregorjs.github.io/git/git.pdf)
 
 
 #Thank you!
